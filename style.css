@@ -1,0 +1,87 @@
+body{
+    background: rgb(192, 96, 96);
+}
+.r2{
+    display: flex;
+    justify-content: center;
+}
+.link{
+    color: red;
+}
+.lin:hover{
+    background: rgb(126, 95, 95);
+}
+.link:hover{
+    text-decoration: underline;
+    color: black;
+}
+.class{
+    color: rgb(255, 174, 0);
+}
+.class:hover{
+    text-decoration: underline;
+    color: black;
+}
+.class:visited{
+    color: brown;
+}
+.cn:active{
+    color: yellow;
+}
+input:focus{
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.5);
+    color: red;
+}
+.list li{
+    font-size: 18px;
+    margin: 0px 0px 15px 0px;
+}
+.list li:first-child{
+    color: lime;
+}
+.list li:last-child{
+    color: sandybrown;
+}
+.list li:nth-child(odd){
+    text-transform: uppercase;
+}
+.en li::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: grey;
+    display: inline-block;
+    margin: 0px 10px 0px 0px;
+}
+.en li::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: grey;
+    display: inline-block;
+    margin: 0px 10px 0px 0px;
+}
+.btn li:nth-child(2) { 
+    background-color: orange;
+}
+.ctrl li:first-of-type{
+    background-color: orange;
+    color: orangered;
+}
+.ctrl li:last-of-type{
+    color: palegoldenrod;
+}
+.upi li:not(li.li2){
+    color: rgb(255, 0, 255);
+}
+.upi li:not(.classy) { 
+    color: red; 
+}
+table {
+    border: 1px solid blue;
+  }
+  tr:nth-last-child(-n+3) { /* последние 3 потомка */
+    background-color: lime;
+  }
